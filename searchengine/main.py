@@ -12,7 +12,7 @@ from tkinter import filedialog
 data = []
 #this takes the .csv library and makes it into a list called data
 def openFile():
-    filepath = filedialog.askopenfilename()
+    filepath = filedialog.askopenfilename(title="Choose a .csv file.")
     with open(filepath) as csvfile:
         reader = csv.reader(csvfile)
         for row in reader:
