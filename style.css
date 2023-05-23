@@ -1,0 +1,42 @@
+body{
+    .blazerLogo{
+
+        border: 5px solid gold;
+    }
+    .welcome{
+        text-align: center;
+    }
+    .grid-container-out{
+        border: 5px solid green;
+        display: -ms-inline-grid;
+        border-radius: 15px;
+        width: 10%;
+    }
+    .grid-container-in{
+        border : 5px solid gold;
+        border-radius: 15px;
+        padding: 10px; 
+    }
+
+    .grid-item{
+        position: relative;
+        padding: 10px;
+        font-size: 1vw;
+        border: 5px solid green;
+        border-radius: 15px;
+        text-align: center;
+        
+    
+    }
+    .grid-item-in{
+        position: relative;
+        margin: auto;
+        padding: 3px;
+        display: inline-block;        
+    }
+    .grid-container-check{
+        display: block;
+        border : 5px solid gold;
+        padding: 10px;
+    }
+}
