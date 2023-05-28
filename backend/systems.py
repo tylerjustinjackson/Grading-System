@@ -38,4 +38,4 @@ if __name__ == "__main__":
     print(log_metric)
     create_metrics(log_metric)
 
-    # alter_metrics("3", "new_scale")
+    # alter_metrics("3", "new_scale") 
