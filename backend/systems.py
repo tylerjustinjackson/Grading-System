@@ -2,7 +2,7 @@ import json
 import os 
  
 global log_metric
-log_metric = []
+log_metric = [] 
 
 
 def create_metrics(log_metric):
